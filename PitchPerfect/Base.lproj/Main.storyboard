@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14D72i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3cb-Qn-ZPs">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -70,11 +71,11 @@
                             <mask key="constraints">
                                 <exclude reference="27e-G1-Dff"/>
                                 <exclude reference="J2c-YC-P9K"/>
+                                <exclude reference="2xI-Mu-OUR"/>
+                                <exclude reference="aVU-cS-zZT"/>
                                 <exclude reference="2lw-ob-2EF"/>
                                 <exclude reference="KaY-1j-QNn"/>
                                 <exclude reference="XnM-RV-e7V"/>
-                                <exclude reference="2xI-Mu-OUR"/>
-                                <exclude reference="aVU-cS-zZT"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -86,11 +87,11 @@
                             <mask key="constraints">
                                 <include reference="27e-G1-Dff"/>
                                 <include reference="J2c-YC-P9K"/>
+                                <include reference="2xI-Mu-OUR"/>
+                                <include reference="aVU-cS-zZT"/>
                                 <include reference="2lw-ob-2EF"/>
                                 <include reference="KaY-1j-QNn"/>
                                 <include reference="XnM-RV-e7V"/>
-                                <include reference="2xI-Mu-OUR"/>
-                                <include reference="aVU-cS-zZT"/>
                             </mask>
                         </variation>
                     </view>
@@ -114,6 +115,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Bbn-Mc-d01"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="LEN-HP-9Uw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4c-DY-yu3">
@@ -164,12 +166,12 @@
                                 <exclude reference="Ah8-e6-vgY"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="Cka-Hq-mun"/>
-                                <exclude reference="UuY-OP-11T"/>
                                 <exclude reference="BZd-SK-fhK"/>
                                 <exclude reference="tTT-gf-ueS"/>
                                 <exclude reference="Pv6-Nv-vnT"/>
                                 <exclude reference="iD4-0t-cGn"/>
+                                <exclude reference="Cka-Hq-mun"/>
+                                <exclude reference="UuY-OP-11T"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -180,12 +182,12 @@
                                 <include reference="Ah8-e6-vgY"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Cka-Hq-mun"/>
-                                <include reference="UuY-OP-11T"/>
                                 <include reference="BZd-SK-fhK"/>
                                 <include reference="tTT-gf-ueS"/>
                                 <include reference="Pv6-Nv-vnT"/>
                                 <include reference="iD4-0t-cGn"/>
+                                <include reference="Cka-Hq-mun"/>
+                                <include reference="UuY-OP-11T"/>
                             </mask>
                         </variation>
                     </view>
